@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+p a{
+    display: inline;
+}
+img{
+    display: block;
+    width: 100%;
+    height: initial;
+}
+.Imagen{
+    width: 300PX;
+    height: 300PX;
+    background-color: red;
+
+    /* object-fit: scale-down;
+    object-fit: fill;
+    object-fit: cover; */
+}
+.header{
+    width: 100%;
+    /* background-color: red; */
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+@media (max-width:700px){
+    .header{
+        justify-content: center;
+    }
+}
+.header .h1{
+    max-width: 200px;
+}
+.header .h1 .a{}
+.header .h1 .a .img{}
+.header .nav{}
+@media (max-width:800px){
+    .header .nav{
+        display: none;
+    }
+}
+.header .nav .ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.header .nav .ul .li{
+    /* background-color: brown; */
+}
+.header .nav .ul .li .link{}
+.main{}
+
+.inside{
+    width: 100%;
+    min-height: 80vh;
+    background-color: blue;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 150px 0;
+}
+.inside .h2{
+    width: 70%;
+    /* background-color: orange; */
+}
+.inside .h2 .a{}
+.inside .h2 .a .img{}
+
+.columns{
+    width: 100%;
+    max-width: 960px;
+    /* background-color: lightgray; */
+    margin: 170px auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+@media (max-width: 800px){
+    .columns .article{
+        width: 100%;
+        /* background-color: orange; */
+    }
+}
+.columns .article .a{
+    /* background-color: aqua; */
+    margin: 0 0 20px;
+}
+.columns .article .a .img{}
+.columns .article .h3{
+    /* background-color: purple; */
+}
+.footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.footer .redes{
+    /* background-color: blue; */
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer .policy{
+    width: 100%;
+    /* background-color: aqua; */
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.footer .botton{
+    background-color: white;
+    padding: 20px 40px;
+    border: 2px solid green;
+    display: inline-block;
+
+    margin-bottom: 30px;
+}
+
+
+
